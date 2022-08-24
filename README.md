@@ -5,6 +5,8 @@ You are unfortunatley one of these robots, waking up in a pile of junk all damag
 
 “We Are Alive” is a story-rich, first-person adventure game that gives the player different options on how to play and at the same time tells the story about the robots that ended up with you, thrown away as pieces of junk. 
 
+What ending will you get? And will you be able to get them all?
+
 Gameplay and pictures can be found in the report pfd file.
 
 <p align = "center"> 
