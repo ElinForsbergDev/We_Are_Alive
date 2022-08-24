@@ -34,13 +34,13 @@ Gameplay and pictures can be found in the report pfd file.
 ![300106462_1097634271136909_1331102513644373430_n](https://user-images.githubusercontent.com/47697397/186491640-db89a204-0996-43cb-84ae-e67df74104ee.png)
 
 <p align = "center"> 
-  <b>Talk to other robots! </b><br> 
+  <b>Talk to other robots and hear their stories! </b><br> 
 </p>
                                                             
 ![300248261_1809280979410558_8489880070325646457_n](https://user-images.githubusercontent.com/47697397/186491648-4c1fb175-3374-4172-ad6c-87b7b4d4981f.png)
 
 <p align = "center"> 
-  <b>Avoid the light from the watchtower!</b><br> 
+  <b>Avoid the light from the watchtower and the different guards!</b><br> 
 </p>
                                                     
 ![299666014_1128096781468574_1984847417054559971_n](https://user-images.githubusercontent.com/47697397/186491635-ce9c45ae-b0a1-4082-8f50-78a7ae2eb57d.png)
@@ -52,7 +52,7 @@ Gameplay and pictures can be found in the report pfd file.
 ![299249764_1639761886395584_2694767591799907296_n](https://user-images.githubusercontent.com/47697397/186491628-640b771c-6efd-490f-a654-0708ae84957a.png)
 
 <p align = "center"> 
-  <b>Maybe find some easter eggs!</b><br> 
+  <b>Maybe find some easter eggs?!</b><br> 
 </p>
                                                           
 ![300830079_1165222611008365_7440660530076077540_n](https://user-images.githubusercontent.com/47697397/186491654-0aa2865c-d477-4b09-8e04-5d3cef623cff.png)
