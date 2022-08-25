@@ -9,8 +9,6 @@ What ending will you get? And will you be able to get them all?
 
 Gameplay and pictures can be found in the report pfd file.
 
-Project files are coming!
-
 <p align = "center"> 
   <b>Main Menu! </b><br>
 </p>
