@@ -7,7 +7,7 @@ You are unfortunatley one of these robots, waking up in a pile of junk all damag
 
 What ending will you get? And will you be able to get them all?
 
-Gameplay and pictures can be found in the report pfd file.
+Gameplay and pictures can be found in the report pdf file.
 
 <p align = "center"> 
   <b>Main Menu! </b><br>
