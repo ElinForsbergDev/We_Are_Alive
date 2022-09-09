@@ -1,5 +1,5 @@
 # We Are Alive
-In an era where robots have been used every day, one robot starts showing emotions, and the world goes crazy. The manufacturers are calling back all the robots to be thrown away and destroyed. 
+In an era where robots are in use every day, one robot starts showing emotions, and the world goes crazy. The manufacturers are calling back all the robots to be thrown away and destroyed. 
 
 You are unfortunatley one of these robots, waking up in a pile of junk all damaged. You need to repair yourself before you can leave this junkyard and decide what to do about the situation outside. 
 
