@@ -1,0 +1,622 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &105027416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 105027417}
+  - component: {fileID: 105027419}
+  - component: {fileID: 105027418}
+  m_Layer: 0
+  m_Name: TalkTriggerer (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &105027417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105027416}
+  m_LocalRotation: {x: -0, y: 0.72747886, z: -0, w: 0.6861301}
+  m_LocalPosition: {x: 11.09, y: -0.5322318, z: 6.62}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2684544220888392057}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 93.351, z: 0}
+--- !u!65 &105027419
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105027416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.906578, y: 5.768894, z: 1}
+  m_Center: {x: -0.15816855, y: 2.384447, z: 5.46651e-10}
+--- !u!114 &105027418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105027416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab5f6e36308b2d4ab8c89cdb4769a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talk:
+    name: Trigger
+    sentences:
+    - Those guards do not seem to be people I should say hi too. I need to find the
+      exit while avoiding them.
+  talkScript: {fileID: 0}
+--- !u!1 &353033759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 353033760}
+  - component: {fileID: 353033762}
+  - component: {fileID: 353033761}
+  m_Layer: 0
+  m_Name: TalkTriggerer (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &353033760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353033759}
+  m_LocalRotation: {x: -0, y: -0.28339592, z: -0, w: 0.9590031}
+  m_LocalPosition: {x: 51.94, y: -0.5322318, z: 422.63}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2684544220888392057}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: -32.926, z: 0}
+--- !u!65 &353033762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353033759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.668026, y: 5.768894, z: 3.8347826}
+  m_Center: {x: 0.6734563, y: 2.384447, z: -1.4173789}
+--- !u!114 &353033761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353033759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab5f6e36308b2d4ab8c89cdb4769a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talk:
+    name: Trigger
+    sentences:
+    - Looks like one part is stuck in there...
+    - There should be a way to open this.
+  talkScript: {fileID: 0}
+--- !u!1 &504934683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 504934684}
+  - component: {fileID: 504934686}
+  - component: {fileID: 504934685}
+  m_Layer: 0
+  m_Name: TalkTriggerer (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &504934684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504934683}
+  m_LocalRotation: {x: -0, y: 0.3497216, z: -0, w: 0.93685365}
+  m_LocalPosition: {x: 54.411716, y: -0.5322318, z: 193.93686}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2684544220888392057}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 40.941, z: 0}
+--- !u!65 &504934686
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504934683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 42.920845, y: 5.768894, z: 1.0000001}
+  m_Center: {x: 11.474558, y: 2.384447, z: 0.000012015381}
+--- !u!114 &504934685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504934683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab5f6e36308b2d4ab8c89cdb4769a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talk:
+    name: Trigger
+    sentences:
+    - Funny how one of the car lights is still on, I should maybe investigate futher
+  talkScript: {fileID: 0}
+--- !u!1 &912339258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912339259}
+  - component: {fileID: 912339263}
+  - component: {fileID: 912339262}
+  - component: {fileID: 912339261}
+  - component: {fileID: 912339260}
+  m_Layer: 0
+  m_Name: TalkTriggerer (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &912339259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912339258}
+  m_LocalRotation: {x: -0, y: 0.3497216, z: -0, w: 0.93685365}
+  m_LocalPosition: {x: 103.8, y: -0.5322318, z: 161.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2684544220888392057}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 40.941, z: 0}
+--- !u!65 &912339263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912339258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 101.87324, y: 5.768894, z: 1.0000001}
+  m_Center: {x: 42.387707, y: 2.384447, z: 0.000015349831}
+--- !u!114 &912339262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912339258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab5f6e36308b2d4ab8c89cdb4769a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talk:
+    name: Trigger
+    sentences:
+    - That watchtower looks like trouble, I need to avoid the light if I don't want
+      any attention on me.
+  talkScript: {fileID: 0}
+--- !u!65 &912339261
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912339258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9608842, y: 8.270536, z: 94.3487}
+  m_Center: {x: -49.472446, y: 3.6352682, z: 74.65548}
+--- !u!65 &912339260
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912339258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6310656, y: 8.07322, z: 116.83026}
+  m_Center: {x: 116.212364, y: 3.5366101, z: 78.71494}
+--- !u!1 &1267880540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1267880541}
+  - component: {fileID: 1267880544}
+  - component: {fileID: 1267880543}
+  - component: {fileID: 1267880542}
+  m_Layer: 0
+  m_Name: TalkTriggerer (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1267880541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267880540}
+  m_LocalRotation: {x: -0, y: 0.97114265, z: -0, w: -0.2384993}
+  m_LocalPosition: {x: 286.2, y: -0.5322318, z: -35.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2684544220888392057}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 207.596, z: 0}
+--- !u!65 &1267880544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267880540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 31.449444, y: 5.768894, z: 1.0000002}
+  m_Center: {x: 28.159304, y: 2.384447, z: 0.000023697909}
+--- !u!114 &1267880543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267880540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab5f6e36308b2d4ab8c89cdb4769a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talk:
+    name: Trigger
+    sentences:
+    - There is another robot over there...
+    - I wonder if he is okay, and maybe he knows where another part is.
+  talkScript: {fileID: 0}
+--- !u!65 &1267880542
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267880540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4672855, y: 6.64631, z: 46.982872}
+  m_Center: {x: 44.171314, y: 2.8231463, z: 23.13392}
+--- !u!1 &2105383281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2105383282}
+  - component: {fileID: 2105383286}
+  - component: {fileID: 2105383285}
+  - component: {fileID: 2105383284}
+  - component: {fileID: 2105383283}
+  m_Layer: 0
+  m_Name: TalkTriggerer (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2105383282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105383281}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 184.2, y: -0.5322318, z: 356.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2684544220888392057}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &2105383286
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105383281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 29.004387, y: 5.768894, z: 3.8347826}
+  m_Center: {x: 8.341639, y: 2.384447, z: -1.4173789}
+--- !u!114 &2105383285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105383281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab5f6e36308b2d4ab8c89cdb4769a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talk:
+    name: Trigger
+    sentences:
+    - This area is full of houses and those guards...
+    - I would guess that the exist has to be here somewhere.
+  talkScript: {fileID: 0}
+--- !u!65 &2105383284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105383281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.749417, y: 4.4831214, z: 13.544473}
+  m_Center: {x: 121.06058, y: 1.7415605, z: 16.320335}
+--- !u!65 &2105383283
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105383281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7629385, y: 8.260746, z: 67.42198}
+  m_Center: {x: 142.65802, y: 3.6303725, z: 114.1505}
+--- !u!1 &2684544220888392056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2684544220888392057}
+  m_Layer: 0
+  m_Name: TalkTriggers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2684544220888392057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684544220888392056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.328548, y: 0.5322318, z: 75.00579}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2684544221184028249}
+  - {fileID: 2684544221446903262}
+  - {fileID: 105027417}
+  - {fileID: 504934684}
+  - {fileID: 1267880541}
+  - {fileID: 912339259}
+  - {fileID: 353033760}
+  - {fileID: 2105383282}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2684544221184028230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2684544221184028249}
+  - component: {fileID: 2684544221184028248}
+  - component: {fileID: 2684544221184028231}
+  m_Layer: 0
+  m_Name: TalkTriggerer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2684544221184028249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684544221184028230}
+  m_LocalRotation: {x: -0, y: 0.1636765, z: -0, w: 0.9865141}
+  m_LocalPosition: {x: -1.92, y: -0.5322318, z: 2.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2684544220888392057}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 18.841, z: 0}
+--- !u!65 &2684544221184028248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684544221184028230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.151594, y: 5.768894, z: 1}
+  m_Center: {x: -0.11883068, y: 2.384447, z: 0}
+--- !u!114 &2684544221184028231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684544221184028230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab5f6e36308b2d4ab8c89cdb4769a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talk:
+    name: Trigger
+    sentences:
+    - Oh... he does not look too good, I should probably check in with him
+  talkScript: {fileID: 0}
+--- !u!1 &2684544221446903259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2684544221446903262}
+  - component: {fileID: 2684544221446903261}
+  - component: {fileID: 2684544221446903260}
+  m_Layer: 0
+  m_Name: TalkTriggerer (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2684544221446903262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684544221446903259}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.6285486, y: -0.5322318, z: -5.885788}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2684544220888392057}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2684544221446903261
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684544221446903259}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.4116488, y: 0.705194, z: 4.124153}
+  m_Center: {x: 0.3455205, y: -0.14740312, z: -0.6647835}
+--- !u!114 &2684544221446903260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684544221446903259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab5f6e36308b2d4ab8c89cdb4769a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talk:
+    name: Trigger
+    sentences:
+    - Uahhh... what is this? where am I?
+    - There are a bunch of junk here...
+    - Let's have a look around and find out what is going on.
+  talkScript: {fileID: 0}
