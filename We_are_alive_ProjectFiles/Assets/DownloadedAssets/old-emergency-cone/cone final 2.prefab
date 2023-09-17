@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4168726523832279024}
   - component: {fileID: 1041898569328136277}
   - component: {fileID: 2995287873145169055}
-  - component: {fileID: 1440355295641924582}
   m_Layer: 0
   m_Name: cone final 2
   m_TagString: Untagged
@@ -84,16 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1440355295641924582
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3643862912679134538}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 2.5567002, z: 1.9999999}
-  m_Center: {x: -0.000049471855, y: -0.07388663, z: -0.000043690205}

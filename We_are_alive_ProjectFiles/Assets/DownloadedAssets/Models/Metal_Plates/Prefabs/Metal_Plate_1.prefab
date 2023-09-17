@@ -93,7 +93,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4486688475979432}
   - component: {fileID: 205876170230351064}
-  - component: {fileID: 5214787127562214725}
   m_Layer: 0
   m_Name: Metal_Plate_1
   m_TagString: Untagged
@@ -146,19 +145,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 23161518035659846}
   m_Enabled: 1
---- !u!65 &5214787127562214725
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1425385540239372}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.4519615, y: 2.4785974, z: 0.10130952}
-  m_Center: {x: 0.025806312, y: -0.01708127, z: -0.0022164616}
 --- !u!1 &1501650901556172
 GameObject:
   m_ObjectHideFlags: 0

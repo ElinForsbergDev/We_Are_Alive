@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4419477636959162}
   - component: {fileID: 33226089700102884}
   - component: {fileID: 23930691590365986}
-  - component: {fileID: 6295307780687130150}
   m_Layer: 0
   m_Name: SmallTire 1
   m_TagString: Untagged
@@ -84,16 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6295307780687130150
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003090863208150}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.49684727, y: 0.12103701, z: 0.5060032}
-  m_Center: {x: -0.012441785, y: 7.4195766e-13, z: 0.0036419958}
