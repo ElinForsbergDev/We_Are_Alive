@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "ca.andydbc.unity-texture-packer": {
-      "version": "file:../Assets/DownloadedAssets/unity-texture-packer-master/unity-texture-packer-master",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "com.unity.2d.animation": {
       "version": "7.0.3",
       "depth": 1,
