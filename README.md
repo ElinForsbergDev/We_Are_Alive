@@ -7,7 +7,8 @@ You are unfortunatley one of these robots, waking up in a pile of junk all damag
 
 What ending will you get? And will you be able to get them all?
 
-Gameplay and pictures can be found in the report pdf file.
+## Game design document
+Details about how the game works and additional pictures can be found in the [game design report](https://github.com/ElinForsbergDev/We_Are_Alive/blob/main/We%20are%20alive%20report.pdf).
 
 <p align = "center"> 
   <b>Main Menu! </b><br>
